@@ -1,0 +1,30 @@
+table{
+    text-align: left;
+    color: black;
+    border-collapse: collapse;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+table td, table th{
+    border: 1px solid black;
+    padding: 10px;
+    min-width: fit-content;
+}
+.icon-delete {
+    text-align: center;
+    padding-left: 10px;
+}
+.icon-delete:hover{
+    color: red;
+}
+.icon-edit {
+    color: black;
+    text-align: center;
+    margin-left:10px ;
+    
+}
+.icon-edit:hover{
+    color: blue;
+}

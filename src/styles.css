@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+   
+}
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    padding-left: 15px;
+    color: black;
+}
+.form-button{
+    height: 35px;
+    border: 1px solid grey  ;
+    color: black;
+    cursor: pointer;
+    
+}
+.form-button:hover{
+    background-color: rgb(177, 178, 178);
+    color: aliceblue;
+    font-weight: bold;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius:10px;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: black;
+    border-radius:5px ;
+}

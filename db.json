@@ -1,0 +1,75 @@
+{
+  "seller": [
+    {
+      "id": "a441",
+      "name": "ali",
+      "email": "ali12@gmail.com",
+      "password": "ali12"
+    },
+    {
+      "id": "5c6c",
+      "name": "may",
+      "email": "may123@gmail.com",
+      "password": "may123"
+    },
+    {
+      "id": "1cc9",
+      "name": "sara",
+      "email": "sara12@gmail.com",
+      "password": "sara12"
+    },
+    {
+      "id": "7578",
+      "name": "ali",
+      "email": "MohDandan20@hotmail.com",
+      "password": "456"
+    },
+    {
+      "id": "2558",
+      "name": "order1",
+      "email": "info@almosaaed.net",
+      "password": "www"
+    }
+  ],
+  "products": [
+    {
+      "name": "IPone 14",
+      "price": "1490",
+      "category": "mobile",
+      "color": "red",
+      "description": "this is updated yesterday",
+      "imageURL": "https://th.bing.com/th/id/OIP.mwYsytg3c1X7xgd-8VGCoAHaHa?rs=1&pid=ImgDetMain",
+      "id": "82e6"
+    },
+    {
+      "name": "hp laptop",
+      "price": "5000",
+      "category": "Laptop",
+      "color": "blue",
+      "description": "\"Hp laptop for student and professionals",
+      "imageURL": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": "4a10"
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "620",
+      "category": "Jeans",
+      "color": "white",
+      "description": "Confirmable jeans for man",
+      "imageURL": "https://th.bing.com/th/id/OIP.6BvPoF_gSxMEKLngTeJ51AHaJ4?rs=1&pid=ImgDetMain",
+      "id": "fc5e"
+    },
+    {
+      "id": "2313",
+      "name": "Nike Shoes",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "yellow",
+      "description": "Best shoes for Running",
+      "imageURL": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png"
+    }
+  ],
+  "users":[
+
+  ]
+}
