@@ -9,7 +9,9 @@ import { product } from '../data-type';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent implements OnInit {
+
   menuType: string = 'default';
+  userName: string = '';
   sellerName: string = '';
   searchResult: undefined | product[];
   constructor(private router: Router, private serviceProduct: ProductService) {}
@@ -21,6 +23,11 @@ export class HeaderComponent implements OnInit {
           let sellerData = sellerStore && JSON.parse(sellerStore)[0];
           this.sellerName = sellerData.name;
           this.menuType = 'seller';
+        } else if (localStorage.getItem('user')) {
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.name;
+          this.menuType = 'user';
         } else {
           this.menuType = 'default';
         }
@@ -31,6 +38,10 @@ export class HeaderComponent implements OnInit {
     localStorage.removeItem('seller');
     this.router.navigate(['/']);
   }
+  userLogOut() {
+    localStorage.removeItem('user');
+    this.router.navigate(['/user-auth']);
+    }
   searchProduct(event: KeyboardEvent) {
     if (event) {
       const element = event.target as HTMLInputElement;
@@ -47,10 +58,9 @@ export class HeaderComponent implements OnInit {
     this.searchResult = undefined;
   }
   redirectToDetails(value: string) {
-   this.router.navigate(['/product-details/'+value]);
+    this.router.navigate(['/product-details/' + value]);
   }
   submitSearch(value: string) {
     this.router.navigate([`search/${value}`]);
   }
-  
 }

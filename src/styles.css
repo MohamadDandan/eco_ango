@@ -41,3 +41,23 @@ body{
     background-color: black;
     border-radius:5px ;
 }
+.sign{
+    align-items: center;
+    cursor: pointer;
+    color: darkorchid;
+    font-weight: bold;
+}
+.invalid-input{
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -20px;
+}
+button:disabled{
+    cursor: not-allowed;
+}
+.error-p{
+    color: red;
+    text-align: center;
+   
+}
