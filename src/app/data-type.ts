@@ -15,4 +15,5 @@ export interface product{
     color:String;
     description:String;
     imageURL:String;
+    quantity:number |undefined;
 }
