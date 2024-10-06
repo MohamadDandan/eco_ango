@@ -24,7 +24,7 @@
       <li><a href="">Home</a></li>
       <li><a >{{userName| titlecase}}</a></li>
       <li><a (click)="userLogOut()">LogOut</a></li>
-      <li><a href="#">Cart({{cartItems}})</a></li>
+      <li><a routerLink="cart_page">Cart({{cartItems}})</a></li>
   </ul>
     <ul *ngSwitchCase="'seller'">
       <li><a routerLink="seller-add-product">Add Product</a></li>

@@ -77,5 +77,10 @@ export class ProductService {
   removeToCart(cartId:string){
     return this.http.delete(this.cartURL+'/'+cartId);
   }
+  getCartData(){
+    let userStore=localStorage.getItem('user');
+    let userId=userStore && JSON.parse(userStore).id;
+    return this.http.get<cart[]>(this.cartURL+'?userId='+userId);
+  }
 }
  

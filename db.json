@@ -379,18 +379,6 @@
       "id": 23
     },
     {
-      "name": "Nike Shoes",
-      "price": "3000",
-      "category": "Shoes",
-      "color": "yellow",
-      "description": "Best shoes for Running",
-      "imageURL": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "quantity": 1,
-      "productId": "2313",
-      "userId": 7,
-      "id": 24
-    },
-    {
       "name": "Levies Jeans",
       "price": "620",
       "category": "Jeans",
@@ -401,6 +389,18 @@
       "productId": "fc5e",
       "userId": 7,
       "id": 25
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "yellow",
+      "description": "Best shoes for Running",
+      "imageURL": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "quantity": 3,
+      "productId": "2313",
+      "userId": 7,
+      "id": 26
     }
   ]
 }
