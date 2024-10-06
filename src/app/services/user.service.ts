@@ -22,6 +22,7 @@ private  basicURL=environment.urlUsers;
       if(res){
         localStorage.setItem('user',JSON.stringify(res.body));
         this.router.navigate(['/']);
+        this.invalidUserAuth.emit(false);
       }
     });
   }
